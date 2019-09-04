@@ -4,8 +4,8 @@ class SMSSend() :
 	def __init__(self) :
 		self.url = "http://sms.ru/sms/send" #URL отправки запроса
 		self.data = {
-			'api_id' : '9a9d843b-502a-5524-b1c1-63819eb0014f',
-			'to' : '79261770280'
+			'api_id' : 'api_id',
+			'to' : 'telefone'
 			}
 	def send(self, text) :
 		data = self.data
